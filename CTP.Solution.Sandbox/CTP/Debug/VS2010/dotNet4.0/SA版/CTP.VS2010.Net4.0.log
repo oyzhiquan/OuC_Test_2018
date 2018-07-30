@@ -1,0 +1,36 @@
+﻿生成启动时间为 2018/7/26 10:41:39。
+     1>项目“F:\Repos\CTP.Solution-20121028-master\CTP.Solution.Sandbox\CTP\CTP.VS2010.Net4.0.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\VS2010\dotNet4.0\SA版\CTP.pch" /Fo"Debug\VS2010\dotNet4.0\SA版\\" /Fd"Debug\VS2010\dotNet4.0\SA版\vc120.pdb" /doc"Debug\VS2010\dotNet4.0\SA版\\" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /analyze- /errorReport:prompt /clr:nostdlib Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\VS2010\dotNet4.0\SA版\CTP.pch" /Fo"Debug\VS2010\dotNet4.0\SA版\\" /Fd"Debug\VS2010\dotNet4.0\SA版\vc120.pdb" /doc"Debug\VS2010\dotNet4.0\SA版\\" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /analyze- /errorReport:prompt /clr:nostdlib AssemblyInfo.cpp CTP.cpp CTPMDAdapter.cpp CTPTraderAdapter.cpp MdSpi.cpp TraderSpi.cpp Util.cpp
+         AssemblyInfo.cpp
+     1>AssemblyInfo.cpp(53): warning C4947: “RequestMinimum”: 标记为已过时
+                 消息: “Assembly level declarative security is obsolete and is no longer enforced by the CLR by default. See http://go.microsoft.com/fwlink/?LinkID=155570 for more information.”
+         CTP.cpp
+         CTPMDAdapter.cpp
+         CTPTraderAdapter.cpp
+         MdSpi.cpp
+         TraderSpi.cpp
+         Util.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\VS2010\dotNet4.0\SA版\\" /Fd"Debug\VS2010\dotNet4.0\SA版\vc120.pdb" /doc"Debug\VS2010\dotNet4.0\SA版\\" /TP /analyze- /errorReport:prompt "C:\Users\ADMIN\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Repos\CTP.Solution-20121028-master\CTP.Solution.Sandbox\Debug\VS2010\dotNet4.0\SA版\CTP.dll" /INCREMENTAL /NOLOGO ..\ThostTraderApi\thostmduserapi.lib ..\ThostTraderApi\thosttraderapi.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Repos\CTP.Solution-20121028-master\CTP.Solution.Sandbox\Debug\VS2010\dotNet4.0\SA版\CTP.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH /DLL "Debug\VS2010\dotNet4.0\SA版\AssemblyInfo.obj"
+         "Debug\VS2010\dotNet4.0\SA版\CTP.obj"
+         "Debug\VS2010\dotNet4.0\SA版\CTPMDAdapter.obj"
+         "Debug\VS2010\dotNet4.0\SA版\CTPTraderAdapter.obj"
+         "Debug\VS2010\dotNet4.0\SA版\MdSpi.obj"
+         "Debug\VS2010\dotNet4.0\SA版\Stdafx.obj"
+         "Debug\VS2010\dotNet4.0\SA版\TraderSpi.obj"
+         "Debug\VS2010\dotNet4.0\SA版\Util.obj"
+         "Debug\VS2010\dotNet4.0\SA版\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         CTP.VS2010.Net4.0.vcxproj -> F:\Repos\CTP.Solution-20121028-master\CTP.Solution.Sandbox\Debug\VS2010\dotNet4.0\SA版\CTP.dll
+       XdcMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\xdcmake.exe /old "CTP.VS2010.Net4.0" /nologo /Fo"F:\Repos\CTP.Solution-20121028-master\CTP.Solution.Sandbox\Debug\VS2010\dotNet4.0\SA版\CTP.xml" /Fs"Debug\VS2010\dotNet4.0\SA版\AssemblyInfo.xdc" /Fs"Debug\VS2010\dotNet4.0\SA版\CTP.xdc" /Fs"Debug\VS2010\dotNet4.0\SA版\CTPMDAdapter.xdc" /Fs"Debug\VS2010\dotNet4.0\SA版\CTPTraderAdapter.xdc" /Fs"Debug\VS2010\dotNet4.0\SA版\MdSpi.xdc" /Fs"Debug\VS2010\dotNet4.0\SA版\Stdafx.xdc" /Fs"Debug\VS2010\dotNet4.0\SA版\TraderSpi.xdc" /Fs"Debug\VS2010\dotNet4.0\SA版\Util.xdc" /Fs"Debug\VS2010\dotNet4.0\SA版\.NETFramework,Version=v4.0.AssemblyAttributes.xdc"
+     1>已完成生成项目“F:\Repos\CTP.Solution-20121028-master\CTP.Solution.Sandbox\CTP\CTP.VS2010.Net4.0.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:16.88

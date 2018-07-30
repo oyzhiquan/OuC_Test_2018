@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <Brokers Name="模拟CTP" Id="9999">
+    <Line Name="电信" ID="1">
+      <Market Address="tcp://180.168.146.187:10010" />
+      <Trade Address="tcp://180.168.146.187:10001" />
+    </Line>
+  </Brokers>
+</root>
